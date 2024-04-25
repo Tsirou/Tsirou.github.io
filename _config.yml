@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Michelle Tsirou/ PhD Astrophysics"
+title                    : "M. Tsirou | PhD Astrophysics"
 title_separator          : "|"
-name                     : &name "Dr Tsirou"
+name                     : &name "Michelle Tsirou"
 description              : &description "Postdoctoral researcher"
 url                      : "https://tsirou.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,12 +21,12 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  # avatar           : "profile.png"
+  avatar           : "profile.png"
   name             : "Dr Tsirou"
-  pronouns         : "she/her" # example: "she/her"  
+  pronouns         : "She/her" # example: "she/her"  
   bio              : "Whom?"
-  location         : "Earth"
-  # employer         : "TBD"
+  location         : "Earth!"
+  employer         : "TBD"
   # uri              : # URL
   # email            : "" 
 
@@ -222,8 +222,8 @@ kramdown:
 
 # Defaults
 defaults:
-#   # _posts
-#   - scope:
+  # _posts
+  # - scope:
 #       path: ""
 #       type: posts
 #     values:
