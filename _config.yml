@@ -144,8 +144,8 @@ yandex_site_verification :
 # Reading Files
 include:
   - .htaccess
-  # - _pages
-  # - files
+  - _pages
+  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -213,8 +213,8 @@ kramdown:
 #     permalink: /:collection/:path/
 
 
-# # Defaults
-# defaults:
+# Defaults
+defaults:
 #   # _posts
 #   - scope:
 #       path: ""
