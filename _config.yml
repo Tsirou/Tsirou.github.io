@@ -12,9 +12,9 @@ title                    : "Michelle Tsirou/ PhD Astrophysics"
 title_separator          : "|"
 name                     : &name "Dr Tsirou"
 description              : &description "Postdoctoral researcher"
-url                      : https:michelletsirou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https:michelletsirou.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "michelletsirou.github.io"
+# repository               : "michelletsirou.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -109,7 +109,9 @@ staticman:
 atom_feed:
   hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
-theme: jekyll-theme-midnight
+remote_theme: pages-themes/midnight@v0.2.0
+
+
 
 # SEO Related
 google_site_verification :
@@ -290,6 +292,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
